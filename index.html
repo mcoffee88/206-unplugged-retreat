@@ -25,10 +25,12 @@
   <header>
     <div class="content-wrapper">
 
-      <a href="#"><img src="img/logo.png" alt="unplugged logo"></a>
+      <a href="#">
+        <img src="img/logo.png" alt="unplugged logo">
+      </a>
 
       <div class="header-divider">
-      </div>
+      </div> <!-- header divider -->
 
       <nav>
         <ul>
@@ -46,26 +48,27 @@
       <h1>Retreat from the desk, return refreshed.</h1>
     </section>
 
-    <aside>
-      <div class="form-description">
-        <h3>Want to join the next retreat?</h3>
-        <p>Find out when we are holding our next retreat and how your company or team can sign up!</p>
-      </div>
-      <div class="form">
-        <h3>Find out more</h3>
-        <!-- form to grab email goes here -->
-        <input type="text" name="name" value="email address">
-        <!--  button "DOWNLOAD ITINERARY" goes here -->
-        <input type="button" value="Download Itinerary">
-      </div>
-    </aside> <!-- form for newsletter signup -->
+    <aside>  <!-- form for newsletter signup -->
+      <div class="content-wrapper">
+        <div class="form-description">
+          <h3>Want to join the next retreat?</h3>
+          <p>Find out when we are holding our next retreat and how your company or team can sign up!</p>
+        </div>
 
-    <section class="features">
+        <div class="form">
+          <h3>Find out more</h3>
+          <!-- form to grab email goes here -->
+          <input type="text" name="name" value="email address">
+          <!--  button "DOWNLOAD ITINERARY" goes here -->
+          <input type="button" value="Download Itinerary">
+        </div>
+      </div> <!-- end aside content wrapper -->
+    </aside> <!-- end form for newsletter signup -->
+
+    <section id="features">
       <div class="content-wrapper">
 
-        <div>
-          <h2>Have the work week you always dreamed of - without the bad wifi.</h2>
-        </div>
+        <h2>Have the work week you always dreamed of - without the bad wifi.</h2>
 
         <div class="features-items">
           <article>
@@ -106,10 +109,12 @@
 
         <article>
           <!-- image goes here -->
+          <figure>
+
+          </figure>
 
           <div class="reviews-text">
-            <h3>LaCrue Bottling Co.</h3>
-            <h3>October 2017</h3>
+            <h3>LaCrue Bottling Co.  October 2017</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
           </div>
         </article>
@@ -123,16 +128,16 @@
     <div class="content-wrapper">
       <div class="footer-content">
 
-        <div class="contact">
-          <h3>Contact</h3>
-          <address>
+        <address class="contact">
+          <h4>Contact</h4>
+          <p>
             555-555-5555</br>
             hello@unplugged.com
-          </address>
-        </div> <!-- contact -->
+          </p>
+        </address> <!-- contact -->
 
         <div class="social">
-          <h3>Social</h3>
+          <h4>Social</h4>
           <div class="social-icons">
             <p><a href="https://www.facebook.com/yoursite" target="_blank"></a></p>
             <p><a href="https://www.twitter.com/yoursite" target="_blank"></a></p>
